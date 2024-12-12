@@ -1,8 +1,7 @@
 # MajorStudio1 Summary
 A Compilation of My Projects this semester!
 
-<br><br>
-***
+--
  
 # How Long is a Fish
 #### Investigate the lengths of fish at different ocean depths
@@ -10,7 +9,7 @@ A Compilation of My Projects this semester!
 <img width="1230" alt="Screenshot 2024-12-11 at 2 44 18 PM" src="https://github.com/user-attachments/assets/02621fcd-4147-46d4-b754-4670d5f70756" />
 
 ### DESCRIPTION: ( Quantitative Data Visualization )
-
+This visualization explores the relationship between a fish’s length and the depth that they live in. I played around with translating the scale of a fish to the screen. As you scroll down, the “depth” of your screen’s view corresponds to the depth of the ocean that you are exploring! I also created a big picture plot on the side which shows the minimum, average, and maximum lengths of fish at all depths. As you scroll, this plot highlights your current depth region relative to all of the data to help orient you. For fun, I also created a dynamic “fish” sketch that moves with your mouse to help you visualize “how long a fish is”.
 
 ### SCREENSHOTS: 
 ![snaptogrid](https://github.com/user-attachments/assets/d14dc895-8a40-45fe-a37a-b2dc9b60eddd)
@@ -27,15 +26,18 @@ A Compilation of My Projects this semester!
 <img width="1191" alt="Screenshot 2024-12-11 at 2 47 52 PM" src="https://github.com/user-attachments/assets/cc1faea1-69d0-48d2-8868-2761f5dbd3f9" />
 
 ### DESCRIPTION: ( Qualitative Data Visualization )
-![scroll_1](https://github.com/user-attachments/assets/2a46fd29-8b7b-4c0c-8ad2-f7c580496e47)
-![intro_screen](https://github.com/user-attachments/assets/37908cda-83d3-44e5-8587-f6cac8370a55)
-![display_1](https://github.com/user-attachments/assets/3d757dd9-53da-4cc1-a9f2-85d230585152)
-![cursor_1](https://github.com/user-attachments/assets/a7426311-c506-4904-b1c3-7c8247553737)
+
+I collaborated with Josh Strupp on this project to create an interactive exploration of the hat collection at the Smithsonian! We organized the hats by their most vibrant colors on an HSL axis and used d3 force to allow users to move them around and reveal the hats belonging to each color. We also bucketted the hats by the date they were made, so as you scroll on the page, it controls the timeline and the hats you see.
+
+*Thank you and shoutout to Josh for helping me learn so much during this process!
 
 
 ### SCREENSHOTS: 
 ![collection_1](https://github.com/user-attachments/assets/e86963fe-9f56-4d1b-a0df-d6bc617e0516)
-
+![scroll_1](https://github.com/user-attachments/assets/2a46fd29-8b7b-4c0c-8ad2-f7c580496e47)
+![intro_screen](https://github.com/user-attachments/assets/37908cda-83d3-44e5-8587-f6cac8370a55)
+![display_1](https://github.com/user-attachments/assets/3d757dd9-53da-4cc1-a9f2-85d230585152)
+![cursor_1](https://github.com/user-attachments/assets/a7426311-c506-4904-b1c3-7c8247553737)
 
 
 <br><br>
@@ -48,7 +50,7 @@ A Compilation of My Projects this semester!
 
 
 ### DESCRIPTION:  ( Interaction Design )
-
+For this project, I was interested in extending my "Hats of the Smithsonian" project by focusing on creating a color driven search. I extended the data to include all fashion related objects from the Smithsonian Open Access Collection as I was also curious about different colors in fabrics, jewelry, shirts, pants, etc. I had a lot of fun experimenting with extracting color swatches and learning d3.force. I also added an experimental "show gradients" button to create some coded art based on the selected colors!
 
 ### SCREENSHOTS: 
 ![move-and-add](https://github.com/user-attachments/assets/08099fca-6dca-4476-8f93-ac6080da05d2)
